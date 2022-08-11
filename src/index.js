@@ -3,6 +3,6 @@ module.exports = function reverse (n) {
   return +n.toString().split("").reverse().join("");
    };
     else{
-        return +((n*(-1)).toString().split("").reverse().join("")) * (-1);
+        return +((n*(-1)).toString().split("").reverse().join(""));
     };
 }
